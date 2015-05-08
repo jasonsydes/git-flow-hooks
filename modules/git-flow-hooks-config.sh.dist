@@ -1,5 +1,12 @@
-VERSION_FILE="VERSION"
-VERSION_BUMPLEVEL_HOTFIX="PATCH"
+# Copy this file to .git/git-flow-hooks-config.sh
+
+### Defaults
+# VERSION_FILE="VERSION"
+# VERSION_BUMPLEVEL_HOTFIX="PATCH"
+# VERSION_BUMPLEVEL_RELEASE="MINOR"
+# VERSION_SORT="/usr/bin/sort -V"
+# VERSION_TAG_PLACEHOLDER="%tag%"
+
+# Always do "PATCH" level releases by default.  If you want to do a "MINOR"
+# level release, you can explicitly specify it.
 VERSION_BUMPLEVEL_RELEASE="PATCH"
-VERSION_SORT="/usr/bin/sort -V"
-VERSION_TAG_PLACEHOLDER="%tag%"
